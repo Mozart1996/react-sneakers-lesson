@@ -1,0 +1,23 @@
+*, *::after, *::before {
+   box-sizing: border-box;
+}
+
+h1, h2, h3, p {
+   margin: 0;
+}
+
+button {
+   padding: 10px;
+   border: 1px solid rgba(242, 242, 242, 1);
+   font: inherit;
+   color: rgba(211, 211, 211, 1);
+   background-color: transparent;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #E7F6FF;
+}
